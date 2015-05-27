@@ -1,6 +1,4 @@
-/**
- * Created by Steven on 5/20/2015.
- */
+'use strict';
 
 angular.module('testPhoneApp').config(function($urlRouterProvider, $stateProvider){
 
@@ -16,4 +14,4 @@ angular.module('testPhoneApp').config(function($urlRouterProvider, $stateProvide
     templateUrl: '/views/phone.html',
     controller: 'PhoneCtrl'
   });
-})
+});

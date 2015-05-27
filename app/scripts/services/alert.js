@@ -1,5 +1,5 @@
 'use strict';
-
+// to generate a service yo angular:service
 /**
  * @ngdoc service
  * @name testPhoneApp.alert
@@ -22,5 +22,5 @@ angular.module('testPhoneApp')
         alertTimeout = $timeout(function(){
           $rootScope.alert.show = false;
         }, timeout || 2000);
-      }
+      };
   });
